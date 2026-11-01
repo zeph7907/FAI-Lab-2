@@ -24,7 +24,8 @@
 | **Subject Name** | Fundamentals of Artificial Intelligence |
 | **Lab Report Number** | Lab Report 2 |
 | **Syllabus Scope** | Module 1 (AI & Agents) & Module 2 (Uninformed Search Strategies) |
-| **Date of Submission** | November 2026 |
+| **Google Colab Notebook** | [Open in Google Colab](https://colab.research.google.com/github/zeph7907/FAI-Lab-2/blob/main/FAI_Lab_Report_2_Ayush_Aditya_252U1R3013.ipynb) |
+| **GitHub Repository** | [https://github.com/zeph7907/FAI-Lab-2](https://github.com/zeph7907/FAI-Lab-2) |
 
 ---
 
@@ -153,21 +154,14 @@ dfs_path, dfs_explored = dfs_search(grid_hospital, pharmacy_start, patient_room_
 ## 3. Final Output
 
 **Verified Program Execution Output (Registration Number: `252U1R3013`):**
-- **Breadth-First Search (BFS):** Shortest Path Length = **19 cells (18 steps)** | Explored Cells = **75 cells** `[Optimal]`
-- **Depth-First Search (DFS):** Valid Path Length = **27 cells (26 steps)** | Explored Cells = **56 cells** `[Non-Optimal Detour]`
-
-```
-┌────────────────────────────────────────────────────────────────────────┐
-│ 📸 PROBLEM 1: HOSPITAL DELIVERY ROBOT EXECUTION OUTPUT (BFS VS DFS)    │
-│                                                                        │
-│                [ Insert Genuine Google Colab Screenshot Here ]         │
-│                                                                        │
-│ Screenshot of executed Google Colab output cell showing:               │
-│ • Student Name: Ayush Aditya and Registration Number: 252U1R3013       │
-│ • Dual-panel grid visualization (BFS 19 cells vs DFS 27 cells)         │
-│ • Pharmacy (Start), Patient Room 304 (Goal), and Explored Cells        │
-└────────────────────────────────────────────────────────────────────────┘
-```
+- **Breadth-First Search (BFS):**
+  - **Path Length:** **19 cells (18 steps)** `[Optimal Shortest Route]`
+  - **Nodes Explored:** **75 cells**
+  - **Route Coordinates:** `[(0, 0), (1, 0), (2, 0), (3, 0), (4, 0), (5, 0), (6, 0), (6, 1), (6, 2), (6, 3), (7, 3), (8, 3), (9, 3), (9, 4), (9, 5), (9, 6), (9, 7), (9, 8), (9, 9)]`
+- **Depth-First Search (DFS):**
+  - **Path Length:** **27 cells (26 steps)** `[Non-Optimal Detour, 29.6% longer]`
+  - **Nodes Explored:** **56 cells**
+  - **Route Coordinates:** `[(0, 0), (0, 1), (0, 2), (0, 3), (0, 4), (0, 5), (0, 6), (0, 7), (0, 8), (0, 9), (1, 9), (2, 9), (2, 8), (2, 7), (3, 7), (4, 7), (4, 6), (4, 5), (5, 5), (6, 5), (7, 5), (8, 5), (9, 5), (9, 6), (9, 7), (9, 8), (9, 9)]`
 
 ---
 
@@ -291,30 +285,6 @@ dls_cut_path, dls_cut_exp, dls_cut_status = dls_search(grid_campus, entrance_sta
 - **DLS with Suitable Limit ($L = 20$):** **SUCCESS** | Path Length = **21 cells (20 steps)** | Explored = **48 cells**
 - **DLS with Cutoff Limit ($L = 10$):** **CUTOFF** (Goal depth $d=18 > \text{Limit } L=10$; No path found within limit)
 
-```
-┌────────────────────────────────────────────────────────────────────────┐
-│ 📸 PROBLEM 2: CAMPUS NAVIGATION OUTPUT (BFS VS DLS SUITABLE L=20)      │
-│                                                                        │
-│                [ Insert Genuine Google Colab Screenshot Here ]         │
-│                                                                        │
-│ Screenshot of executed Google Colab output cell showing:               │
-│ • Student Name: Ayush Aditya and Registration Number: 252U1R3013       │
-│ • Dual-panel grid visualization (BFS 19 cells vs DLS L=20 21 cells)    │
-│ • College Entrance, Computer Lab, Blocked Pathways, and Explored Nodes  │
-└────────────────────────────────────────────────────────────────────────┘
-
-┌────────────────────────────────────────────────────────────────────────┐
-│ 📸 PROBLEM 2: DLS DEPTH LIMIT CUTOFF ANALYSIS (LIMIT L=10 VS L=20)     │
-│                                                                        │
-│                [ Insert Genuine Google Colab Screenshot Here ]         │
-│                                                                        │
-│ Screenshot of executed Google Colab output cell showing:               │
-│ • Student Name: Ayush Aditya and Registration Number: 252U1R3013       │
-│ • Left panel: Cutoff failure when L=10 < d=18                          │
-│ • Right panel: Successful pathfinding when suitable limit L=20 >= d=18  │
-└────────────────────────────────────────────────────────────────────────┘
-```
-
 ---
 
 ## 4. Google Colab / Project Link
@@ -389,7 +359,7 @@ https://github.com/zeph7907/FAI-Lab-2
 | **Program Implementation & Correctness (BFS, DFS, DLS Algorithms)** | 25 | | |
 | **Problem 1: Hospital Delivery Robot Execution & Comparative Analysis** | 20 | | |
 | **Problem 2: Campus Navigation Execution, Depth Limit & Cutoff Analysis** | 20 | | |
-| **Report Presentation, Verified Screenshots & Viva-Voce Performance** | 15 | | |
+| **Report Presentation & Viva-Voce Performance** | 15 | | |
 
 ---
 **Signature of Faculty In-Charge:** ____________________  
