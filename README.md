@@ -1,6 +1,10 @@
 # Fundamentals of Artificial Intelligence (FAI) - Lab Report 2
 ## Uninformed Search Strategies (BFS, DFS, and DLS)
 
+[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/zeph7907/FAI-Lab-2/blob/main/FAI_Lab_Report_2_Ayush_Aditya_252U1R3013.ipynb)
+[![GitHub Repo](https://img.shields.io/badge/GitHub-Repository-blue?logo=github)](https://github.com/zeph7907/FAI-Lab-2)
+
+
 ### Student Credentials
 - **Student Name:** Ayush Aditya
 - **Registration Number:** **`252U1R3013`**
